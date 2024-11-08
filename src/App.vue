@@ -33,8 +33,8 @@ function onTitleTextChanged(value: Event) {
 <template>
   <div class="p-8 space-y-8">
     <h1 class="text-2xl font-semibold">Remotion within Vue</h1>
-    <div class="flex space-x-5">
-      <div class="border rounded">
+    <div class="flex flex-col sm:flex-row gap-5">
+      <div class="flex-1 border rounded">
         <PlayerWrapper ref="player" @paused=onPaused :data="data"/>
       </div>
       <form class="border rounded p-5 space-y-4">

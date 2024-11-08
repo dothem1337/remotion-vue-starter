@@ -33,6 +33,7 @@ export const PlayerView = ({data, playerRefInstance, onPaused}: { data: PlayerSc
         compositionHeight={1080}
         compositionWidth={1920}
         inputProps={data}
+        style={{width: '100%'}}
         controls
     />
 }

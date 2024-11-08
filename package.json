@@ -19,7 +19,7 @@
     "react-dom": "^18.3.1",
     "remotion": "^4.0.227",
     "vue": "^3.5.12",
-    "zod": "^3.23.8"
+    "zod": "3.22.3"
   },
   "devDependencies": {
     "@tsconfig/node20": "^20.1.4",
